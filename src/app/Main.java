@@ -1,6 +1,7 @@
 package app;
 
 public class Main {
+    int a, b, c, d, e, f;
 
     public static void main(String[] args) {
         System.out.println("Calculator for base calculations");
@@ -11,6 +12,10 @@ public class Main {
         System.out.println(c);
         int d = multiply(a, b);
         System.out.println(d);
+        int e = sub(a, b);
+        System.out.println(e);
+        int f = div(a, b);
+        System.out.println(f);
     }
 
     private static int add(int a, int b) {
@@ -19,5 +24,13 @@ public class Main {
 
     private static int multiply(int a, int b) {
         return a * b;
+    }
+
+    private static int sub(int a, int b) {
+        return a - b;
+    }
+
+    private static int div(int a, int b) {
+        return a / b;
     }
 }
