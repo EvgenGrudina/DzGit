@@ -1,7 +1,6 @@
 package app;
 
 public class Main {
-
     public static void main(String[] args) {
         System.out.println("My app for Users!");
         System.out.println("Version 1.0");
@@ -13,6 +12,8 @@ public class Main {
         System.out.println(d);
         int e = sub(a, b);
         System.out.println(e);
+        int f = div(a, b);
+        System.out.println(f);
     }
 
     private static int add(int a, int b) {
@@ -25,5 +26,9 @@ public class Main {
 
     private static int sub(int a, int b) {
         return a - b;
+    }
+
+    private static int div(int a, int b) {
+        return a / b;
     }
 }
