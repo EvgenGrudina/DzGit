@@ -1,6 +1,8 @@
 package app;
 
 public class Main {
+    int a, b, c, d, e, f;
+
     public static void main(String[] args) {
         System.out.println("My app for Users!");
         System.out.println("Version 1.0");
